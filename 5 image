@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Image and Links</title>
+</head>
+<body>
+
+<h2>My Favorite Website</h2>
+<a href="https://www.google.com">Visit Google</a>
+
+<h2>Sample Image</h2>
+<img src="ex.jpg" alt="Sample Image">
+
+</body>
+</html>
