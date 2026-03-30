@@ -1,0 +1,34 @@
+from django.shortcuts import render
+
+def sample_page(request):
+    return render(request, 'demo/sample.html')
+
+#demo
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.sample_page, name='sample_page'),
+]
+
+#sample htnl
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <h1 class="text-center">Welcome to Bootstrap Page</h1>
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="card"><div class="card-body">
+                <h5>Card 1</h5>
+            </div></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
