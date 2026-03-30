@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Styled Page</title>
+</head>
+<body style="background-color: lightblue;">
+
+<h1 style="color: darkblue;">Welcome to My Styled Page</h1>
+<p style="font-size: 18px; color: darkred;">
+This is a paragraph with some inline styling.
+</p>
+
+</body>
+</html>
